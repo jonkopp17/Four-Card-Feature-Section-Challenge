@@ -45,6 +45,7 @@ p {
   padding-top: 1.25rem;
 }
 
+/* Heading Area Styling */
 .heading-p {
   color: hsl(229, 6%, 66%);
   font-family: "Poppins", sans-serif;
@@ -57,6 +58,7 @@ p {
   margin: 5rem auto 4rem auto;
 }
 
+/* Card Grid Layout */
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -97,18 +99,16 @@ p {
   top: 130px;
 }
 
-
-
+/* Responsive Optimizations */
 @media (max-width: 1652px) {
-
   .heading {
     text-align: center;
     width: 40%;
     margin: 5rem auto 4rem auto;
   }
+}
 
 @media (max-width: 1180px) {
-
   .heading {
     text-align: center;
     width: 70%;
@@ -129,11 +129,9 @@ p {
     position: relative;
     top: 0;
   }
-
 }
 
 @media (max-width: 925px) {
-
   .heading {
     text-align: center;
     width: 70%;
@@ -147,7 +145,6 @@ p {
 }
 
 @media (max-width: 768px) {
-
   h1 {
     font-size: 1.5rem;
   }
