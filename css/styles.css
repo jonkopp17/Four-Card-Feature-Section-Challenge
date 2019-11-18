@@ -1,0 +1,169 @@
+body {
+  background-color: #FAFAFA;
+}
+
+h1 {
+  color: hsl(234, 12%, 34%);
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  font-weight: 200;
+  margin: 3% auto 0 auto;
+}
+
+h2 {
+  color: hsl(234, 12%, 34%);
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0 auto 2rem auto;
+}
+
+h3 {
+  color: hsl(234, 12%, 34%);
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3rem;
+}
+
+p {
+  color: hsl(229, 6%, 66%);
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.images {
+  text-align: right;
+  margin: 0;
+  padding-top: 1.25rem;
+}
+
+.heading-p {
+  color: hsl(229, 6%, 66%);
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+
+.heading {
+  text-align: center;
+  width: 30%;
+  margin: 5rem auto 4rem auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 32px;
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.card {
+  border-radius: 5px;
+  box-sizing: border-box;
+  box-shadow: 0 10px 15px 0px hsl(212, 40%, 90%);
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.card1 {
+  border-top: solid hsl(180, 62%, 55%) 5px;
+  position: relative;
+  top: 130px;
+}
+
+.card2 {
+  border-top: solid hsl(0, 78%, 62%) 5px;
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.card3 {
+  border-top: solid hsl(34, 97%, 64%) 5px;
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.card4 {
+  border-top: solid hsl(212, 86%, 64%) 5px;
+  position: relative;
+  top: 130px;
+}
+
+
+
+@media (max-width: 1652px) {
+
+  .heading {
+    text-align: center;
+    width: 40%;
+    margin: 5rem auto 4rem auto;
+  }
+
+@media (max-width: 1180px) {
+
+  .heading {
+    text-align: center;
+    width: 70%;
+    margin: 5rem auto 4rem auto;
+  }
+
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    width: 75%;
+  }
+
+  .card1 {
+    position: relative;
+    top: 0;
+  }
+
+  .card4 {
+    position: relative;
+    top: 0;
+  }
+
+}
+
+@media (max-width: 925px) {
+
+  .heading {
+    text-align: center;
+    width: 70%;
+    margin: 5rem auto 4rem auto;
+  }
+
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .heading {
+    text-align: center;
+    width: 75%;
+    margin: 5rem auto 4rem auto;
+  }
+
+  .grid {
+    display: block;
+    width: 75%;
+  }
+}
